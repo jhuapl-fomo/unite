@@ -12,7 +12,7 @@
 [![](https://img.shields.io/badge/Supplementary-7DCBFF)](https://openaccess.thecvf.com/content/CVPR2024/supplemental/Reddy_Unsupervised_Video_Domain_CVPR_2024_supplemental.pdf)
 [![](https://img.shields.io/badge/arXiv-b31b1b)](https://arxiv.org/abs/2312.02914)
 [![](https://img.shields.io/badge/Video-ff0000)](https://www.youtube.com/watch?v=dDjCVnkuhGg)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/reddyav1/unite/blob/main/LICENSE)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://gitlab.jhuapl.edu/reddyav1/unite/-/blob/main/LICENSE)
 [![](https://img.shields.io/badge/Bibtex-17b656)](#citation)
 
 </div>
