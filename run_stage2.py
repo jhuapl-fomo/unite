@@ -104,11 +104,9 @@ def get_args(args=None):
         weight decay. We use a cosine schedule for WD and using a larger decay by
         the end of training improves performance for ViTs.""")
 
-    # BEGIN: updated code
     parser.add_argument('--lr_schedule', type=str, default='cosine', help='Learning rate schedule (default: constant)', choices=['constant', 'cosine', 'step'])
     parser.add_argument('--step_fraction', type=float, default=0.1, help='Fraction by which to decay at each step (default: 0.1)')
     parser.add_argument('--lr_step_epochs', type=int, nargs='+', default=None, help='Epochs at which to decay learning rate (default: [5])')
-    # END: updated code
 
     parser.add_argument('--lr', type=float, default=1e-3, metavar='LR',
                         help='learning rate (default: 1e-3)')
@@ -248,8 +246,7 @@ def get_args(args=None):
 
     parser.add_argument('--lp_ft_epochs', default=0, type=int)
 
-
-    # distributed training parameters
+    # Distributed training parameters
     parser.add_argument('--world_size', default=1, type=int,
                         help='number of distributed processes')
     parser.add_argument('--local_rank', default=-1, type=int)
