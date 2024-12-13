@@ -75,3 +75,9 @@ This research was sponsored by the Army Research Laboratory under Cooperative Ag
   year={2024}
 }
 ```
+
+## License
+
+This project is released under the MIT License.
+
+Copyright (c) 2024 The Johns Hopkins University Applied Physics Laboratory
